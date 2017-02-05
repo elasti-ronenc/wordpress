@@ -28,6 +28,7 @@ RUN { \
 RUN a2enmod rewrite expires
 
 VOLUME /var/www/html
+VOLUME /wpcontent
 
 ENV WORDPRESS_VERSION 4.7.2
 ENV WORDPRESS_SHA1 7b687f1af589c337124e6247229af209ec1d52c3
